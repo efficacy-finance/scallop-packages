@@ -1,0 +1,15 @@
+[package]
+name = "ProtocolQuery"
+version = "0.0.1"
+published-at = "0xb8d603a39114a5efef3dd0bf84df0bed1be1fbd39b78b7dd6e8a61ccc5e6006f"
+
+[dependencies.Sui]
+git = "https://github.com/MystenLabs/sui.git"
+subdir = "crates/sui-framework/packages/sui-framework"
+rev = "mainnet"
+
+[dependencies.ScallopProtocol]
+local = "../protocol"
+
+[addresses]
+protocol_query = "0xb8d603a39114a5efef3dd0bf84df0bed1be1fbd39b78b7dd6e8a61ccc5e6006f"
